@@ -1,0 +1,15 @@
+.root {
+width: 0px;
+    height: 400px;
+    background-image:linear-gradient(rgb(107, 207, 115),blue);
+    animation: move 2s linear infinite;
+}
+@keyframes move{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 400px;
+    }
+    
+}
