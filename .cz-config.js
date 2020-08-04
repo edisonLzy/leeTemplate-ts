@@ -16,10 +16,7 @@ module.exports = {
   ],
 
   scopes: [
-    {name: 'accounts'},
-    {name: 'admin'},
-    {name: 'exampleScope'},
-    {name: 'changeMe'}
+    {name: 'package'}
   ],
 
   // it needs to match the value for field type. Eg.: 'fix'
