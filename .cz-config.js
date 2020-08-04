@@ -16,7 +16,7 @@ module.exports = {
   ],
 
   scopes: [
-    {name: 'package'}
+    {name: 'performance'}
   ],
 
   // it needs to match the value for field type. Eg.: 'fix'
