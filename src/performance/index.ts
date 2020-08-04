@@ -12,3 +12,12 @@ export default function(){
         onload:timing.loadEventEnd - start
     }
 }
+
+interface buy{
+    name:string;
+    sum(num:number,num2:number):number;
+}
+const sum:buy ={
+    name:'123',
+    sum:(a,b)=>a+b
+}

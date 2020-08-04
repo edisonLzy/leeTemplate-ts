@@ -3,6 +3,12 @@
 ## title
 >  title取值与package.json 的 name字段
 
+## Git Commit Message
+> 规范Git提交说明，提交规则需要符合 AngularJs规范
+- [x] 安装
+> npm install -g commitizen
+- [x] 初始化
+> commitizen init cz-conventional-changelog --save --save-exact
 ## css工程化 - postcss
 >  postcss-loader 自动补充前缀 [官网](https://www.postcss.com.cn/)
  - [x]  安装 
@@ -43,4 +49,3 @@ last 2 version // 兼容近期的两个版本
 > 1% // 兼容用户大于1%的浏览器
 not ie <=8 // 不兼容ie 8 以下的版本
 ````
-
